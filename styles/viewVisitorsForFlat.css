@@ -1,0 +1,75 @@
+body {
+  background-color: #F1EAFF ;  
+  height: 100%;
+  font-weight: 500;
+  color: #1C1678;
+}
+
+h1 {
+    font-family: font-family-sans-serif: cera-round-pro, "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    text-align: center;
+    font-weight: bold;
+    color: #1C1678; 
+}
+
+/*changing modal box css*/
+.modal-content{
+  background:#F1EAFF ;
+}
+
+.dt-container{
+  width: 600px;
+  margin-left: 10px;
+} 
+
+#vimageid{
+  width:140px;
+  height: 200px;
+  border: #1C1678 solid 3px;
+  border-radius: 3px;
+  padding: 1px;
+}
+
+#vimgdisplay{
+  text-align:center;
+  left:50%;
+}
+
+.modal-title{
+  font-weight: bold;
+}
+
+/*changing Datatable css*/
+.table-dark {
+  --bs-table-bg: #240A34;
+  --bs-table-color: white;
+}
+
+tbody{
+  --bs-table-bg: #E5D4FF;
+}
+
+.btn{
+  font-weight: 500;
+}
+
+.btn-info {
+    --bs-btn-color: white;
+    --bs-btn-bg: #D0A2F7;
+    --bs-btn-border-color: #D0A2F7;
+    --bs-btn-hover-color: #000;
+    --bs-btn-hover-bg: #E5D4FF;
+    --bs-btn-hover-border-color: #D0A2F7;
+    --bs-btn-active-bg: #D0A2F7;
+    --bs-btn-active-color: white;
+    --bs-btn-active-bg: #D0A2F7;
+    --bs-btn-active-border-color: #D0A2F7;
+}
+
+.dt-length{
+    display: none;
+}
+
+.dt-search{
+  display: none;
+} 

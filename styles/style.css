@@ -1,0 +1,86 @@
+body{
+    background-color: #c9ccd1; 
+}
+
+.form-style input{
+	border:0;
+	height:50px;
+	border-radius:15px;
+    border-bottom:1px solid #ebebeb;	
+}
+
+.form-style select{
+    border:0;
+    height:50px;
+    border-radius:15px;
+    border-bottom:1px solid #ebebeb;
+}
+
+.form-style input:focus{
+    border-bottom:1px solid #007bff;	
+    box-shadow:none;
+    outline:0;
+    background-color:#ebebeb;	
+}
+
+.form-style select:focus{
+    border-bottom:1px solid #007bff;    
+    box-shadow:none;
+    outline:0;
+    background-color:#ebebeb;   
+}
+
+button{
+    height:50px;	
+}
+
+a:hover{
+    color: red;
+}
+
+
+#loginimage{
+    height:450px;
+    margin-left: 100px;
+}
+
+
+.container input{
+    border:0;
+    height:50px;
+    border-radius:15px;
+    border-bottom:1px solid #ebebeb;    
+}
+
+.container input:focus{
+    border-bottom:1px solid #007bff;    
+    box-shadow:none;
+    outline:0;
+    background-color:#ebebeb;   
+}
+
+.container select{
+    border:0;
+    height:50px;
+    border-radius:15px;
+    border-bottom:1px solid #ebebeb;    
+}
+
+.container select:focus{
+    border-bottom:1px solid #007bff;    
+    box-shadow:none;
+    outline:0;
+    background-color:#ebebeb;   
+}
+
+
+#regimage{
+    height:600px;
+    margin-top:20px ;
+    margin-right: 100px;
+    
+}
+
+small{
+    display: none;
+}

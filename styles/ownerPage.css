@@ -1,0 +1,250 @@
+body{
+	background-color:#F1EAFF ;
+	margin-bottom: 40px;
+	color:#1C1678;
+}
+
+/*styles for posts*/
+.container h1 {
+    text-align:center;
+    font-family: font-family-sans-serif: cera-round-pro, "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    font-weight: bolder;
+    color:#1C1678;
+    margin-top: 30px;
+    font-size: 40px;
+}
+
+.blog-grid:hover{
+    transform: translateY(-5px);
+    transition: all ease 0.5s;
+}
+
+.blog-grid {
+    position: relative;
+    box-shadow: 0 1rem 1.75rem 0 #D0A2F7;
+    height: 100%;
+    border: 0.0625rem solid #DCBFFF;
+    border-radius: 1rem;
+    transition: all .2s ease-in-out;
+}
+
+.blog-grid img {
+	width: 100%;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem
+}
+
+.blog-grid-text {
+    position: relative
+}
+
+.blog-grid-text .meta-style {
+    border-top: 1px dashed #cee1f8;
+    padding-top: 15px
+}
+
+.blog-grid-text .meta-style ul li {
+    margin-bottom: 0;
+    font-weight: 500;
+}
+
+.blog-grid-text .meta-style ul li:last-child {
+    margin-right: 0
+}
+
+.blog-grid-text ul {
+    margin: 0;
+    padding: 0
+}
+
+.blog-grid-text h3{
+	font-weight: bolder;
+}
+
+.blog-grid-text h4 {
+    line-height: normal;
+    margin-bottom: 15px
+}
+
+.blog-grid-text ul li {
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 500;
+    margin: 5px 10px 5px 0px;
+}
+
+.blog-grid-text ul li:last-child {
+    margin-right: 0;
+}
+
+.blog-grid-text ul li i {
+    font-size: 14px;
+    font-weight: 600;
+    margin-right: 7px;
+    color: #240A34;
+}
+
+.blog-grid-text p {
+    font-weight: 400;
+    padding: 0;
+}
+
+
+@media (min-width:100px) {
+    .blog-grid img {
+        height: 600px;
+    }
+}
+
+@media (min-width:575px){
+    .blog-grid img {
+        height: 300px;
+    }
+}
+
+@media (min-width:960px){
+    .blog-grid img {
+        height: 400px;
+    }
+}
+
+
+/*styles for review*/
+#testimonials{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width:100%;
+}
+
+.testimonial-heading h1{
+    align-items: center;
+    font-family: font-family-sans-serif: cera-round-pro, "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    font-weight: bolder;
+    color:#1C1678;
+    margin: 20px auto;
+    font-size: 40px;
+    padding-top: 30px;
+}
+
+.testimonial-box-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width:100%;
+
+}
+.testimonial-box{
+    width:500px;
+    box-shadow: 2px 2px 20px #D0A2F7;
+    background-color: #F1EAFF;
+    padding: 10px;
+    margin: 15px;
+    cursor: pointer;
+    border:  0.0625rem #DCBFFF solid;
+    border-radius: 10px;
+}
+
+.profile{
+    display: flex;
+    align-items: center;
+}
+
+.name-user{
+    display: flex;
+    flex-direction: column;
+}
+
+.name-user strong{
+    color: #240A34;
+    font-size: 1.1rem;
+    letter-spacing: 0.1px;
+}
+
+.name-user span{
+    color: #240A34;
+    font-size: 0.8rem;
+}
+
+.reviews{
+    color: #240A34;
+    width: 130px;
+    padding-top: 5px;
+    font-weight: bolder;
+}
+
+.box-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.client-comment p{
+    font-size: 0.9rem;
+    color: #1C1678;
+    padding-left: 5px;
+}
+
+.testimonial-box  .meta-style-2 ul{
+    padding: 0px;
+    display: inline-block;
+    font-weight: 500;
+    margin: auto auto 5px 10px;
+    color: #240A34 ;
+    list-style-type: none;
+}
+
+.testimonial-box  .meta-style-2 ul li{
+    font-size:14px;
+    padding: 3px;
+}
+
+.testimonial-box ul li i {
+    font-size: 15px;
+    font-weight: 600;
+    margin-right: 7px;
+    color: #240A34;
+}
+
+.testimonial-box:hover{
+    transform: translateY(-5px);
+    transition: all ease 0.5s;
+}
+ 
+@media(max-width:1060px){
+    .testimonial-box{
+        width:45%;
+        padding: 10px;
+    }
+}
+
+@media(max-width:790px){
+    .testimonial-box{
+        width:100%;
+    }
+}
+
+@media(max-width:340px){
+    .box-top{
+        flex-wrap: wrap;
+        margin-bottom: 10px;
+    }
+    .reviews{
+        margin-top: 10px;
+    }
+}
+
+#closebtn{
+    position: relative;
+    left: 91%;
+}
+
+.btn-close {
+    height: .75rem;
+    width: .75rem;
+    padding: 0;
+    margin: 0;
+}

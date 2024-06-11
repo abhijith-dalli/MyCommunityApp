@@ -1,0 +1,171 @@
+#container{
+	background-color: #E5D4FF;
+	border-radius: 20px;
+  max-width: 500px;
+  padding: 5%;
+}
+
+#heading {
+    margin: 0 auto;
+    padding:0 25px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px ;
+    color: #1C1678; 
+    font-family: font-family-sans-serif: cera-round-pro, "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+
+
+body
+{
+    height: 150%;
+    width: 100%;
+}
+
+#img{
+  max-height: 150px;
+  max-width: 100px;
+  position: relative;
+  left: 38%;
+  border-radius: 5px;
+  border: 3px #F1EAFF solid;
+  margin-top: 10px;
+}
+
+#imgupload{
+  width: 80px;
+  margin-top: 5px;
+  margin-left: 5px;
+  border: none;
+  color: White;
+  padding: 2px;
+  border-radius: 15px;
+  background-color:  #1C1678;
+}
+
+#imgupload:hover {
+  background: #D0A2F7;
+}
+
+.bodyContainer{
+	background-color: #F1EAFF;
+	height:100%;
+	width:100%;
+}
+
+#row{
+ width: 100%;
+}
+
+small{
+  display: none;
+}
+
+#fileDisplayArea {
+  margin-top: 2em;
+  width: 100%;
+  overflow-x: auto;
+}
+
+.heading {
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+}
+
+input{
+  max-width: 500px;
+}
+
+textarea{
+  max-width: 500px;
+}
+
+select{
+  max-width: 400px;
+}
+
+.form-control {
+  border-radius: 10px ;
+}
+
+
+#fileDisplayArea {
+  margin-top: 2em;
+  width: 100%;
+  overflow-x: auto;
+}
+
+#eachInput{
+  margin: 25px;
+}
+
+label{
+  font-weight: bold;
+  color:#1C1678;
+}
+
+input[type=file]::file-selector-button {
+  margin-top: 5px ;
+  margin-right: 20px;
+  border: none;
+  background: #1C1678;
+  padding: 10px 20px;
+  border-radius: 30px;
+  color: #fff;
+  cursor: pointer;
+  transition: background .2s ease-in-out;
+}
+
+input[type=file]::file-selector-button:hover {
+  background: #D0A2F7;
+}
+
+#submitbtn{
+  position: relative;
+  left: 70%;
+}
+
+#uploadbtn{
+  position: relative;
+  left: 70%;
+}
+#editbtn{
+  position: relative;
+  left: 65%;
+}
+
+#allowbtn{
+  margin-top: 20px;
+  position: relative;
+  left: 50%;
+}
+
+#declinebtn{
+  margin-top: 20px;
+  position: relative;
+   left: 50%;
+}
+
+#addbtn{
+  margin-top: 20px;
+  margin-bottom: 10px;
+  position: relative;
+  left: 75%;
+}
+
+#areamodalbtn{
+  margin: 0;
+  position: relative;
+  left: 65%;
+}
+
+.modal-content{
+  background:#F1EAFF ;
+}
+
+.modal-title{
+  font-weight: bold;
+  color: #1C1678;
+}
+

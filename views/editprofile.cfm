@@ -1,0 +1,2 @@
+<cfset result=application.profile.checkValidation(url.firstname,url.lastname,url.phonenum,url.phoneregx,url.emailid,url.emailregx,url.password,url.passwordregx,url.confirmpassword)>
+<cfoutput>#result#</cfoutput>
